@@ -674,6 +674,7 @@
 	<string name="type.amenity.bench">Pad</string>
 	<string name="type.amenity.bicycle_parking">Kerékpárparkoló</string>
 	<string name="type.amenity.bicycle_rental">Kerékpárkölcsönző</string>
+	<string name="type.amenity.bicycle_repair_station">Kerékpárjavító állomás</string>
 	<string name="type.amenity.biergarten">Sörkert</string>
 	<string name="type.amenity.brothel">Bordélyház</string>
 	<string name="type.amenity.bureau_de_change">Pénzváltó</string>
@@ -786,6 +787,7 @@
 	<string name="type.building.garage">Garázs</string>
 	<string name="type.building.has_parts">Épület</string>
 	<string name="type.building.train_station">Vonatmegálló</string>
+	<string name="type.cemetery.grave">Sír</string>
 	<string name="type.craft.brewery">Sörfőzde</string>
 	<string name="type.craft.carpenter">Ács</string>
 	<string name="type.craft.electrician">Villanyszerelő</string>
@@ -1118,6 +1120,7 @@
 	<string name="type.natural.glacier">Gleccser</string>
 	<string name="type.natural.grassland">Mező</string>
 	<string name="type.natural.water.lake">Tó</string>
+	<string name="type.natural.water.lock">Zsilipkamra</string>
 	<string name="type.natural.water.pond">Tavacska</string>
 	<string name="type.natural.water.reservoir">Rezervoár</string>
 	<string name="type.natural.water.basin">Vízgyűjtő</string>

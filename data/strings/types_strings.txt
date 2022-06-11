@@ -619,6 +619,34 @@
     zh-Hans = 自行车出租点
     zh-Hant = 自行車出租
 
+  [type.amenity.bicycle_repair_station]
+    en = Bicycle Repair Station
+    ar = محطة تصليح الدراجات
+    cs = Stanice na opravu jízdních kol
+    da = Cykelreparationsstation
+    de = Fahrrad-Reparaturstation
+    es = Estación de reparación de bicicletas
+    fa = ایستگاه تعمیر دوچرخه
+    fi = Polkupyörän korjausasema
+    fr = Station de réparation de vélos
+    hu = Kerékpárjavító állomás
+    it = Stazione di riparazione biciclette
+    ja = 自転車修理ステーション
+    ko = 자전거 수리소
+    nb = Sykkelreparasjonsstasjon
+    nl = Fiets reparatie station
+    pl = Stacja naprawy rowerów
+    pt = Estação de conserto de bicicletas
+    pt-BR = Estação de conserto de bicicletas
+    ru = Станция ремонта велосипедов
+    sw = Cykelreparationsstation
+    th = สถานีซ่อมจักรยาน
+    tr = Bisiklet tamir istasyonu
+    uk = Станція ремонту велосипедів
+    vi = trạm sửa xe đạp
+    zh-Hans = 自行车维修站
+    zh-Hant = 自行車維修站
+
   [type.amenity.biergarten]
     en = Biergarten
     ar = متجر بيرة
@@ -4762,6 +4790,43 @@
     uk = Склад
     zh-Hans = 仓库
 
+  [type.cemetery.grave]
+    en = Grave
+    ar = ﺮﻴﻄﺧ
+    be = Магіла
+    bg = Гроб
+    cs = Hrob
+    da = Grav
+    de = Grab
+    el = Τάφος
+    es = Tumba
+    eu = Hilobia
+    fa = ﺮﺒﻗ
+    fi = Hauta
+    fr = La tombe
+    he = רבק
+    hu = Sír
+    id = Kuburan
+    it = La tomba
+    ja = 墓
+    ko = 무덤
+    nb = Grav
+    nl = Graf
+    pl = Mogiła
+    pt = Túmulo
+    pt-BR = Túmulo
+    ro = Mormânt
+    ru = Могила
+    sk = Hrob
+    sv = Grav
+    sw = Kaburi
+    th = หลุมฝังศพ
+    tr = Mezar
+    uk = Могила
+    vi = Phần mộ
+    zh-Hans = 墓穴
+    zh-Hant = 墓穴
+
   [type.craft]
     en = Craft
     fr = Artisanat
@@ -4774,6 +4839,14 @@
     tr = Zanaat
     uk = Майстерня
     zh-Hans = 工艺作坊
+
+  [type.craft.beekeeper]
+    en = beekeeper
+    ru = Пчеловод
+
+  [type.craft.blacksmith]
+    en = Blacksmith
+    ru = Кузнец
 
   [type.craft.brewery]
     en = Craft Brewery
@@ -4843,6 +4916,10 @@
     zh-Hans = 木匠
     zh-Hant = 木工
 
+  [type.craft.confectionery]
+    en = Confectionery
+    ru = Кондитер
+
   [type.craft.electrician]
     en = Electrician
     ar = كهربائي
@@ -4875,6 +4952,10 @@
     vi = Thợ điện
     zh-Hans = 电工
     zh-Hant = 電工
+
+  [type.craft.electronics_repair]
+    en = Electronics repair
+    ru = Ремонт электроники
 
   [type.craft.gardener]
     en = Gardener
@@ -4909,6 +4990,10 @@
     vi = Người thiết kế và xây dựng cảnh quan
     zh-Hans = 园艺工
     zh-Hant = 園藝師
+
+  [type.craft.handicraft]
+    en = Handicraft
+    ru = Декоративный мастер
 
   [type.craft.hvac]
     en = Hvac
@@ -5078,6 +5163,10 @@
     zh-Hans = 管道工
     zh-Hant = 水管工人
 
+  [type.craft.sawmill]
+    en = Sawmill
+    ru = Лесопилка
+
   [type.craft.shoemaker]
     en = Shoe Repair
     ar = تصليح الاحذية
@@ -5111,6 +5200,10 @@
     vi = Sửa giày
     zh-Hans = 鞋匠
     zh-Hant = 修鞋工
+
+  [type.craft.winery]
+    en = Winery
+    ru = Винодельня
 
   [type.craft.tailor]
     en = Tailor
@@ -12601,6 +12694,43 @@
     zh-Hans = 湖
     zh-Hant = 湖泊
 
+  [type.natural.water.lock]
+    en = Lock Chamber
+    ar = ﻞﻔﻘﻟﺍ ﺔﻓﺮﻏ
+    be = Шлюзавая камера
+    bg = Заключваща камера
+    cs = Zámková komora
+    da = Låsekammer
+    de = Schleusenkammer
+    el = Θάλαμος κλειδαριάς
+    es = Cámara de bloqueo
+    eu = Sarraila Ganbera
+    fa = ﻞﻔﻗ ﻕﺎﺗﺍ
+    fi = Lukko kammio
+    fr = Chambre de verrouillage
+    he = לוענמ את
+    hu = Zsilipkamra
+    id = Ruang Kunci
+    it = Camera di blocco
+    ja = ロックチャンバー
+    ko = 잠금 챔버
+    nb = Låsekammer
+    nl = Slotkamer
+    pl = Komora zamka
+    pt = Câmara de Bloqueio
+    pt-BR = Câmara de Bloqueio
+    ro = Camera de blocare
+    ru = Шлюзовая камера
+    sk = Uzamykacia komora
+    sv = Låskammare
+    sw = Chumba cha kufuli
+    th = ห้องล็อค
+    tr = Kilit Odası
+    uk = Замкова камера
+    vi = Khoang khóa
+    zh-Hans = 锁室
+    zh-Hant = 鎖室
+
   [type.natural.water.pond]
     en = Pond
     ar = بركة
@@ -19667,16 +19797,6 @@
     tr = Lağım
     uk = Водовiдвiд
     zh-Hans = 渠
-
-  [type.waterway.lock]
-    en = Waterway Lock
-    de = Schleuse
-    fr = Écluse
-    pt = Eclusa
-    pt-BR = Eclusa
-    ru = Шлюз
-    tr = Kanal Havuzu
-    uk = Шлюз
 
   [type.waterway.lock_gate]
     en = Lock Gate
