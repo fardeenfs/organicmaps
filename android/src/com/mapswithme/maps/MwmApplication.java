@@ -7,7 +7,6 @@ import android.os.Handler;
 import android.os.Message;
 
 import androidx.annotation.NonNull;
-import androidx.multidex.MultiDex;
 
 import com.mapswithme.maps.background.AppBackgroundTracker;
 import com.mapswithme.maps.background.NotificationChannelFactory;
@@ -63,10 +62,7 @@ public class MwmApplication extends Application implements AppBackgroundTracker.
   private final Object mMainQueueToken = new Object();
   @NonNull
   private final MapManager.StorageCallback mStorageCallbacks = new StorageCallbackImpl();
-  @SuppressWarnings("NullableProblems")
-  @NonNull
   private MediaPlayerWrapper mPlayer;
-  private boolean mFirstLaunch;
 
   @NonNull
   public SubwayManager getSubwayManager()
@@ -103,14 +99,6 @@ public class MwmApplication extends Application implements AppBackgroundTracker.
     return context.getSharedPreferences(context.getString(R.string.pref_file_name), MODE_PRIVATE);
   }
 
-  @Override
-  protected void attachBaseContext(Context base)
-  {
-    super.attachBaseContext(base);
-    MultiDex.install(this);
-  }
-
-  @SuppressWarnings("ResultOfMethodCallIgnored")
   @Override
   public void onCreate()
   {
@@ -260,17 +248,11 @@ public class MwmApplication extends Application implements AppBackgroundTracker.
     Counters.resetAppSessionCounters(context);
   }
 
+  // Called from jni
   @SuppressWarnings("unused")
   void forwardToMainThread(final long taskPointer)
   {
-    Message m = Message.obtain(mMainLoopHandler, new Runnable()
-    {
-      @Override
-      public void run()
-      {
-        nativeProcessTask(taskPointer);
-      }
-    });
+    Message m = Message.obtain(mMainLoopHandler, () -> nativeProcessTask(taskPointer));
     m.obj = mMainQueueToken;
     mMainLoopHandler.sendMessage(m);
   }
@@ -289,11 +271,6 @@ public class MwmApplication extends Application implements AppBackgroundTracker.
   private static native void nativeProcessTask(long taskPointer);
   private static native void nativeAddLocalization(String name, String value);
   private static native void nativeOnTransit(boolean foreground);
-
-  public boolean isFirstLaunch()
-  {
-    return mFirstLaunch;
-  }
 
   @Override
   public void onTransit(boolean foreground)
