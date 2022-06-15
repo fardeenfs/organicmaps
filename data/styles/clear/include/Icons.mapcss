@@ -525,12 +525,10 @@ area|z11[waterway=waterfall]
 node|z12-[waterway=waterfall],
 area|z12-[waterway=waterfall]
 {icon-image: waterfall-s.svg;text-offset: 1;font-size: 10;text-optional: true;}
-node|z15-[waterway=waterfall],
-area|z15-[waterway=waterfall]
-{icon-image: waterfall-m.svg;text-offset: 1;font-size: 10;text-optional: true;}
 node|z17-[waterway=waterfall],
 area|z17-[waterway=waterfall]
 {icon-image: waterfall-m.svg;text-offset: 1;font-size: 10;text-optional: true;}
+
 node|z10-[natural=volcano],
 area|z10-[natural=volcano]
 {icon-image: volcano-s.svg;text-offset: 1;font-size: 10;text-optional: true;}
@@ -644,6 +642,15 @@ node|z15-[man_made=water_tap],
 area|z15-[man_made=water_tap],
 node|z15-[man_made=water_well],
 area|z15-[man_made=water_well],
+{icon-image: drinking-water-s.svg;icon-min-distance: 36;text-optional: true;}
+node|z19-[amenity=water_point],
+area|z19-[amenity=water_point],
+node|z19-[amenity=drinking_water],
+area|z19-[amenity=drinking_water],
+node|z19-[man_made=water_tap],
+area|z19-[man_made=water_tap],
+node|z19-[man_made=water_well],
+area|z19-[man_made=water_well],
 {icon-image: drinking-water-m.svg;icon-min-distance: 36;text-optional: true;}
 
 /* 3. TRANSPORT */
@@ -1834,6 +1841,9 @@ area|z17-[leisure=marina]
 
 node|z16-[amenity=fountain],
 area|z16-[amenity=fountain]
+{icon-image: fountain-s.svg;icon-min-distance: 20;}
+node|z19-[amenity=fountain],
+area|z19-[amenity=fountain]
 {icon-image: fountain-m.svg;icon-min-distance: 20;}
 
 node|z14[man_made=lighthouse],
