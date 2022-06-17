@@ -877,11 +877,14 @@
 	<string name="type.building.warehouse">Склад</string>
 	<string name="type.cemetery.grave">Могила</string>
 	<string name="type.craft">Майстерня</string>
-	<string name="type.craft.brewery">Пивоварня</string>
+	<string name="type.craft.beekeeper">Бджоляр</string>
+	<string name="type.craft.blacksmith">Кузня</string>
+	<string name="type.craft.brewery">Крафтова пивоварня</string>
 	<string name="type.craft.carpenter">Столяр</string>
 	<string name="type.craft.electrician">Електрик</string>
 	<string name="type.craft.gardener">Садівник</string>
-	<string name="type.craft.hvac">Кондиціонери</string>
+	<!-- Heating, Ventilation, and Air Conditioning -->
+	<string name="type.craft.hvac">Опалення, вентиляція та кондиціювання повітря</string>
 	<string name="type.craft.metal_construction">Металоконструкції</string>
 	<string name="type.craft.painter">Маляр</string>
 	<string name="type.craft.photographer">Фотограф</string>
@@ -1276,7 +1279,9 @@
 	<string name="type.natural.beach.gravel">Гальковий пляж</string>
 	<string name="type.natural.cape">Мис</string>
 	<string name="type.natural.cave_entrance">Печера</string>
-	<string name="type.natural.cliff">Обрив</string>
+	<string name="type.natural.cliff">Урвище</string>
+	<string name="type.natural.earth_bank">Обрив</string>
+	<string name="type.man_made.embankment">Насип</string>
 	<string name="type.natural.coastline">Берегова лiнiя</string>
 	<string name="type.natural.geyser">Гейзер</string>
 	<string name="type.natural.glacier">Льодовик</string>

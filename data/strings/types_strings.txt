@@ -4841,16 +4841,21 @@
     zh-Hans = 工艺作坊
 
   [type.craft.beekeeper]
-    en = beekeeper
+    en = Beekeeper
+    be = Пчаляр
     ru = Пчеловод
+    uk = Бджоляр
 
   [type.craft.blacksmith]
     en = Blacksmith
-    ru = Кузнец
+    be = Кузня
+    ru = Кузница
+    uk = Кузня
 
   [type.craft.brewery]
     en = Craft Brewery
     ar = مصنع جعة
+    be = Крафтавы бровар
     cs = Pivovar
     da = Bryggeri
     de = Brauerei
@@ -4872,12 +4877,12 @@
     pt = Cervejaria artesanal
     pt-BR = Cervejaria artesanal
     ro = Berărie
-    ru = Крафтовое пиво
+    ru = Крафтовая пивоварня
     sk = Pivovar
     sv = Bryggeri
     th = โรงเบียร์
     tr = Bira Fabrikası
-    uk = Пивоварня
+    uk = Крафтова пивоварня
     vi = Nhà máy bia
     zh-Hans = 酿酒厂
     zh-Hant = 釀酒廠
@@ -4954,7 +4959,7 @@
     zh-Hant = 電工
 
   [type.craft.electronics_repair]
-    en = Electronics repair
+    en = Electronics Repair
     ru = Ремонт электроники
 
   [type.craft.gardener]
@@ -4993,11 +4998,14 @@
 
   [type.craft.handicraft]
     en = Handicraft
-    ru = Декоративный мастер
+    ru = Ремесленная мастерская
 
   [type.craft.hvac]
-    en = Hvac
+    comment = Heating, Ventilation, and Air Conditioning
+    en = HVAC
     ar = تكييف
+    be = Ацяпленне, вентыляцыя і кандыцыянаванне
+    bg = Отопление, вентилация и климатизация
     cs = HVAC
     da = Blikkenslager
     de = Heizung
@@ -5015,12 +5023,12 @@
     pl = Klimatyzacja
     pt = Instalador de ar-condicionado
     pt-BR = Ar-condicionado
-    ru = Кондиционеры
+    ru = Отопление, вентиляция и кондиционирование
     sk = Vzduchotechnika
     sv = Vvs
     th = ระบบปรับอากาศ
     tr = Klimacı
-    uk = Кондиціонери
+    uk = Опалення, вентиляція та кондиціювання повітря
     vi = Điều hòa nhiệt độ
     zh-Hans = 暖通工程师
     zh-Hant = 空調設備
@@ -9258,11 +9266,11 @@
     en = Driveway
     de = Zufahrt
     mr = चालकमार्ग
+    pt-BR = Via de acesso
     ru = Подъезд
     uk = Під'їзд
     zh-Hans = 车道
     zh-Hant = 車道
-    pt-BR = Via de acesso
 
   [type.highway.service.parking_aisle]
     ref = type.highway.service
@@ -9652,7 +9660,6 @@
     ref = type.highway.footway
     de = Weg
     fi = Kävelytie
-    pt-BR = Caminho pedonal
 
   [type.area_highway.living_street]
     ref = type.highway.living_street
@@ -9662,7 +9669,6 @@
   [type.area_highway.motorway]
     ref = type.highway.motorway
     fi = Moottoritie
-    pt-BR = Rodovia
 
   [type.area_highway.path]
     ref = type.highway.path
@@ -10387,12 +10393,10 @@
     comment = In most (European) countries, сemeteries are usually independent of places of worship (e.g. military cemeteries), while grave yards are usually the yard of a place of worship.
     ref = type.amenity.grave_yard
     en = Cemetery
-    pt-BR = Cemitério
 
   [type.landuse.cemetery.christian]
     ref = type.amenity.grave_yard.christian
     en = Christian Cemetery
-    pt-BR = Cemitério cristão
 
   [type.landuse.churchyard]
     en = Churchyard
@@ -12548,18 +12552,37 @@
 
   [type.natural.cliff]
     en = Cliff
+    be = Уцёс
+    cs = Útes
     de = Klippe
     fr = Falaise
+    hu = Szikla
     ja = 崖
     mr = कडा
     nl = Klif
     pl = Klif
     pt = Falésia
     pt-BR = Falésia
-    ru = Обрыв
+    ru = Утёс
+    sk = Útes
     tr = Uçurum
-    uk = Обрив
+    uk = Урвище
     zh-Hans = 峭壁
+
+  [type.natural.earth_bank]
+    en = Earth Bank
+    be = Абрыў
+    ru = Обрыв
+    uk = Обрив
+
+  [type.man_made.embankment]
+    en = Embankment
+    be = Насып
+    cs = Násyp
+    hu = Töltés
+    ru = Насыпь
+    sk = Násyp
+    uk = Насип
 
   [type.natural.coastline]
     en = Coastline

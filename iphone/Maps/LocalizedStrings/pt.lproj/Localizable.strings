@@ -1575,7 +1575,7 @@
 
 "type.craft" = "Ofícios";
 
-"type.craft.beekeeper" = "beekeeper";
+"type.craft.beekeeper" = "Beekeeper";
 
 "type.craft.blacksmith" = "Blacksmith";
 
@@ -1587,12 +1587,13 @@
 
 "type.craft.electrician" = "Eletricista";
 
-"type.craft.electronics_repair" = "Electronics repair";
+"type.craft.electronics_repair" = "Electronics Repair";
 
 "type.craft.gardener" = "Jardineiro";
 
 "type.craft.handicraft" = "Handicraft";
 
+/* Heating, Ventilation, and Air Conditioning */
 "type.craft.hvac" = "Instalador de ar-condicionado";
 
 "type.craft.metal_construction" = "Serralheiro metálico";
@@ -2380,6 +2381,10 @@
 "type.natural.cave_entrance" = "Caverna";
 
 "type.natural.cliff" = "Falésia";
+
+"type.natural.earth_bank" = "Earth Bank";
+
+"type.man_made.embankment" = "Embankment";
 
 "type.natural.coastline" = "Linha costeira";
 

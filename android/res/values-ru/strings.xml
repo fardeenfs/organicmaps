@@ -509,7 +509,7 @@
 	<string name="editor_share_to_all_dialog_message_1">Убедитесь, что вы не ввели личные данные.</string>
 	<string name="editor_share_to_all_dialog_message_2">Если при проверке изменений возникнут вопросы, мы напишем вам на email.</string>
 	<!-- Text under the version number in the Help dialog. TODO: Synchronize other translations with English. -->
-	<string name="about_description">Organic Maps — быстрые и бесплатные карты, которые работают без Интернета. Все картографические данные берутся из OpenStreetMap.org, там можно самостоятельно исправлять ошибки и добавлять новые объекты. В Organic Maps нет рекламы и сбора пресональных данных. Это проект с открытым исходным кодом, создаваемый энтузиастами в свободное время. Будем рады вашей поддержке и обратной связи!</string>
+	<string name="about_description">Organic Maps — быстрые и бесплатные карты, которые работают без Интернета. Все картографические данные берутся из OpenStreetMap.org, там можно самостоятельно исправлять ошибки и добавлять новые объекты. В Organic Maps нет рекламы и сбора персональных данных. Это проект с открытым исходным кодом, создаваемый энтузиастами в свободное время. Будем рады вашей поддержке и обратной связи!</string>
 	<!-- For the first routing -->
 	<string name="accept">Принять</string>
 	<!-- For the first routing -->
@@ -907,15 +907,16 @@
 	<string name="type.cemetery.grave">Могила</string>
 	<string name="type.craft">Мастерская</string>
 	<string name="type.craft.beekeeper">Пчеловод</string>
-	<string name="type.craft.blacksmith">Кузнец</string>
-	<string name="type.craft.brewery">Крафтовое пиво</string>
+	<string name="type.craft.blacksmith">Кузница</string>
+	<string name="type.craft.brewery">Крафтовая пивоварня</string>
 	<string name="type.craft.carpenter">Столяр</string>
 	<string name="type.craft.confectionery">Кондитер</string>
 	<string name="type.craft.electrician">Электрик</string>
 	<string name="type.craft.electronics_repair">Ремонт электроники</string>
 	<string name="type.craft.gardener">Садовник</string>
-	<string name="type.craft.handicraft">Декоративный мастер</string>
-	<string name="type.craft.hvac">Кондиционеры</string>
+	<string name="type.craft.handicraft">Ремесленная мастерская</string>
+	<!-- Heating, Ventilation, and Air Conditioning -->
+	<string name="type.craft.hvac">Отопление, вентиляция и кондиционирование</string>
 	<string name="type.craft.metal_construction">Металлоконструкции</string>
 	<string name="type.craft.painter">Маляр</string>
 	<string name="type.craft.photographer">Фотограф</string>
@@ -1315,7 +1316,9 @@
 	<string name="type.natural.beach.gravel">Галечный пляж</string>
 	<string name="type.natural.cape">Мыс</string>
 	<string name="type.natural.cave_entrance">Пещера</string>
-	<string name="type.natural.cliff">Обрыв</string>
+	<string name="type.natural.cliff">Утёс</string>
+	<string name="type.natural.earth_bank">Обрыв</string>
+	<string name="type.man_made.embankment">Насыпь</string>
 	<string name="type.natural.coastline">Береговая линия</string>
 	<string name="type.natural.geyser">Гейзер</string>
 	<string name="type.natural.glacier">Ледник</string>

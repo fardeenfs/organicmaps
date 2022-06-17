@@ -1575,11 +1575,11 @@
 
 "type.craft" = "Майстерня";
 
-"type.craft.beekeeper" = "beekeeper";
+"type.craft.beekeeper" = "Бджоляр";
 
-"type.craft.blacksmith" = "Blacksmith";
+"type.craft.blacksmith" = "Кузня";
 
-"type.craft.brewery" = "Пивоварня";
+"type.craft.brewery" = "Крафтова пивоварня";
 
 "type.craft.carpenter" = "Столяр";
 
@@ -1587,13 +1587,14 @@
 
 "type.craft.electrician" = "Електрик";
 
-"type.craft.electronics_repair" = "Electronics repair";
+"type.craft.electronics_repair" = "Electronics Repair";
 
 "type.craft.gardener" = "Садівник";
 
 "type.craft.handicraft" = "Handicraft";
 
-"type.craft.hvac" = "Кондиціонери";
+/* Heating, Ventilation, and Air Conditioning */
+"type.craft.hvac" = "Опалення, вентиляція та кондиціювання повітря";
 
 "type.craft.metal_construction" = "Металоконструкції";
 
@@ -2379,7 +2380,11 @@
 
 "type.natural.cave_entrance" = "Печера";
 
-"type.natural.cliff" = "Обрив";
+"type.natural.cliff" = "Урвище";
+
+"type.natural.earth_bank" = "Обрив";
+
+"type.man_made.embankment" = "Насип";
 
 "type.natural.coastline" = "Берегова лiнiя";
 

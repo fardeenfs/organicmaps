@@ -793,6 +793,7 @@
 	<string name="type.craft.carpenter">Truhlář</string>
 	<string name="type.craft.electrician">Elektrikář</string>
 	<string name="type.craft.gardener">Zahradník</string>
+	<!-- Heating, Ventilation, and Air Conditioning -->
 	<string name="type.craft.hvac">HVAC</string>
 	<string name="type.craft.metal_construction">Kovodílna</string>
 	<string name="type.craft.painter">Malíř</string>
@@ -1118,6 +1119,8 @@
 	<string name="type.natural.beach">Pláž</string>
 	<string name="type.natural.cape">Mys</string>
 	<string name="type.natural.cave_entrance">Jeskyně</string>
+	<string name="type.natural.cliff">Útes</string>
+	<string name="type.man_made.embankment">Násyp</string>
 	<string name="type.natural.geyser">Gejzír</string>
 	<string name="type.natural.glacier">Ledovec</string>
 	<string name="type.natural.grassland">Pole</string>
